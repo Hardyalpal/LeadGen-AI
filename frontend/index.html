@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LeadGen AI</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>LeadGen AI</h1>
+      <p class="subtitle">Generate leads using natural language prompts.</p>
+
+      <div id="chatBox" class="chat-box"></div>
+
+      <form id="chatForm" class="chat-form">
+        <input
+          id="messageInput"
+          type="text"
+          placeholder='Try: "Find 50 dermatologists in Mumbai with rating above 4 and no website"'
+          required
+        />
+        <button type="submit">Send</button>
+      </form>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
